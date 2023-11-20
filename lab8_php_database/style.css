@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th{
+    background-color: whitesmoke;
+}
+th, td{
+    border: 1px solid rgb(66, 66, 66);
+    font-size: 16px;
+    padding: 7px 9px;
+}
+.input{
+    padding: 5px;
+}
+.input label {
+    display: inline-block;
+    width: 100px;
+}
+.input input[type="text"], form textarea {
+    height: 20px;
+    border: 1px solid rgb(66, 66, 66);
+}
+.submit input{
+    border: 1px solid #0052cc;
+    background-color: #0066ff;
+    color: #ffffff;
+    padding: 5px 15px;
+    margin-top: 5px;
+    margin-left: 110px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit input:hover {background-color: #0052cc;}
